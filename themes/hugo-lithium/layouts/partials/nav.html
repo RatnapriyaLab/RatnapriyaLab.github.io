@@ -1,0 +1,36 @@
+<nav class="nav">
+  <!-- website logo -->
+  <a href="{{ "/" | relURL }}" class="nav-logo">
+    <img src="{{ print "images/" .Site.Params.logo.url | relURL }}"
+         width="{{ .Site.Params.logo.width }}"
+         height="{{ .Site.Params.logo.height }}"
+         alt="{{ .Site.Params.logo.alt }}">
+  </a>
+  <!-- bcm opthalomology logo -->
+  <a href="{{ .Site.Params.logo2.urlex }}" class="nav-logo">
+    <img src="{{ print "images/" .Site.Params.logo2.url | relURL }}"
+         width="{{ .Site.Params.logo2.width }}"
+         height="{{ .Site.Params.logo2.height }}"
+         alt="{{ .Site.Params.logo2.alt }}">
+  </a>
+
+
+  <ul class="menu">
+    {{- $currentPage := . }}
+    {{ range .Site.Menus.main }}
+      <li class="{{ if .HasChildren }}dropdown{{ end }}">
+        <a href="{{ .URL }}">{{ .Name }}</a>
+        {{ if .HasChildren }}
+          <ul class="submenu">
+            {{ range .Children }}
+              <li class="{{ if $currentPage.HasMenuCurrent "sub" . }}active{{ end }}">
+                <a href="{{ .URL }}">{{ .Name }}</a>
+              </li>
+            {{ end }}          
+          </ul>
+        {{ end }}
+      </li>
+    {{ end }}
+  </ul>
+</nav>
+

@@ -1,0 +1,67 @@
+baseurl: /
+languageCode: en-us
+title: Ratnapriya Lab Website
+theme: hugo-lithium
+googleAnalytics: ''
+disqusShortname: ''
+relativeURLs: true
+ignoreFiles:
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _cache$
+  - \.knit\.md$
+  - \.utf8\.md$
+permalinks:
+  post: /:year/:month/:day/:slug/
+menu:
+  main:
+    - name: Publications
+      url: /publications/
+      weight: 1
+    - name: Google Scholar
+      url: https://scholar.google.com/citations?user=YbcomqQAAAAJ&hl=en&oi=ao
+      parent: Publications
+      weight: 1
+    - name: PubMed
+      url: https://pubmed.ncbi.nlm.nih.gov/?term=Ratnapriya+R&cauthor_id=34485303
+      parent: Publications
+      weight: 2
+    - name: Members
+      url: /members/
+      weight: 2
+    - name: Join Us
+      url: /join_us/
+      weight: 3
+    - name: Contact
+      url: /contact/
+      weight: 4
+    - name: Funding
+      url: /support/
+      weight: 5
+params:
+  MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
+  MathJaxVersion: 2.7.5
+  description: Ratiapriya Lab Official Website
+  favicon: logo.png
+  highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
+  highlightjsLang:
+    - r
+    - yaml
+  highlightjsTheme: github
+  highlightjsVersion: 9.12.0
+  logo:
+    url: logo.png
+    alt: Ratnapriya Lab
+    height: 50
+    width: 50
+  logo2:
+    url: bcm_logo.png
+    urlex: https://www.bcm.edu/departments/ophthalmology
+    alt: BCM Logo
+    height: 50
+    width: 50
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: yes
