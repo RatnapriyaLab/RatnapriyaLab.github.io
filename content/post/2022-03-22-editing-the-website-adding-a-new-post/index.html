@@ -1,0 +1,33 @@
+---
+title: Editing the Website - Adding a new Post
+author: Hosei Nakajima
+date: '2022-03-22'
+slug: editing-the-website-adding-a-new-post
+categories: 
+  - howto
+tags: []
+---
+
+
+
+<div id="hey-again" class="section level3">
+<h3>Hey again!</h3>
+<p>So far you got your Rstudio ready for website shenanigans and learned the basic directory structure and their uses. Now, it’s time to actually make a new post!</p>
+<p>At the top left side of Rstudio, you should have something like this:<br />
+<img src="rstudio5.PNG" alt="rstudio5" /></p>
+<p>When you click on “Addins”, you will see this drop down menu. Now select “New Post”.<br />
+<img src="rstudio6.PNG" alt="rstudio6" /></p>
+<p>You can now choose your title and everything! Just be sure to specify the “Subdirectory”, because this will decide which page the post will be put on. General blog posts should go under “post”. Any blog post that isn’t under “post” won’t be displayed in the main page. For the “Format”, it usually doesn’t matter whether you use Markdown or R Markdown, but when you want to embed codes that actually run in your post, use R Markdown.<br />
+<img src="rstudio7.PNG" alt="rstudio7" /></p>
+<p>For example, we can do things like this in R Markdown:</p>
+<pre class="r"><code># install.packages(&quot;ggplot2&quot;)
+# install.packages(&quot;car&quot;)
+library(ggplot2)
+library(car)
+
+d = carData::Davis
+d = d[d$height &gt; 100,]
+ggplot(d, aes(x=height, y=weight, color=sex)) +
+  geom_point()</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+</div>

@@ -20,7 +20,7 @@ For a full list of publications, see [Google Scholar](https://scholar.google.com
 
 [Ratnapriya R, Zhan X, Fariss RN, Branham KE, Zipprer D et al., Rare and common variants in extracellular matrix gene Fibrillin 2 (FBN2) are associated with macular degeneration. Hum Mol Genet 2014;23:5827-37.](https://doi.org/10.1093/hmg/ddu276)
 
-[Ratnapriya R**#**, Swaroop A. Genetic architecture of retinal and macular degenerative diseases: the promise and challenges of next-generation sequencing. Genome Med. 2013;5:84. doi: 10.1186/gm488. eCollection 2013.](https://doi.org/10.1186/gm488)
+[Ratnapriya R **#**, Swaroop A. Genetic architecture of retinal and macular degenerative diseases: the promise and challenges of next-generation sequencing. Genome Med. 2013;5:84. doi: 10.1186/gm488. eCollection 2013.](https://doi.org/10.1186/gm488)
 
 [Ratna Priya et al., Genetic studies of Age-related macular degeneration: lessons, challenges and opportunities for disease management. Ophthalmology. 2012;119:2526-36.](https://doi.org/10.1016/j.ophtha.2012.06.042)
 

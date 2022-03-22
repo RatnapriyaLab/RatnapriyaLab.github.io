@@ -26,18 +26,21 @@ menu:
       url: https://pubmed.ncbi.nlm.nih.gov/?term=Ratnapriya+R&cauthor_id=34485303
       parent: Publications
       weight: 2
+    - name: Research
+      url: /research/
+      weight: 2
     - name: Members
       url: /members/
-      weight: 2
+      weight: 3
     - name: Join Us
       url: /join_us/
-      weight: 3
+      weight: 4
     - name: Contact
       url: /contact/
-      weight: 4
+      weight: 5
     - name: Funding
       url: /support/
-      weight: 5
+      weight: 6
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
