@@ -17,19 +17,16 @@
 
   <ul class="menu">
     {{- $currentPage := . }}
-    {{ range .Site.Menus.main }}
-      <li class="{{ if .HasChildren }}dropdown{{ end }}">
-        <a href="{{ .URL }}">{{ .Name }}</a>
+    {{ range .Site.Menus.main.Reverse }}
+        <li class="{{ if .HasChildren }}dropdown{{ end }}"><a href="{{ .URL }}">{{ .Name }}</a>
         {{ if .HasChildren }}
           <ul class="submenu">
-            {{ range .Children }}
-              <li class="{{ if $currentPage.HasMenuCurrent "sub" . }}active{{ end }}">
-                <a href="{{ .URL }}">{{ .Name }}</a>
-              </li>
+            {{ range .Children.Reverse }}
+                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
             {{ end }}          
           </ul>
         {{ end }}
-      </li>
+        </li>
     {{ end }}
   </ul>
 </nav>

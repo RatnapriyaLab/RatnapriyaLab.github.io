@@ -51,15 +51,15 @@ img {
 .nav {
   max-width: 800px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 0px;
   text-align: right;
 }
 
 .nav-logo {
+  padding-top: 0.5%;
   z-index: 1;
   position: relative;
   float: left;
-  margin-top: -11px;
   transition: transform 150ms ease-out;
 }
 
@@ -78,25 +78,32 @@ img {
 .menu {
   margin: 0;
   padding: 0;
-  font-size: 14px;
+  font-size: 24px;
   list-style: none;
   position: relative;
 }
 
 .menu li {
-  position: relative;
-  display: inline-block;
-  margin: 0 0 0 15px;
+  margin: 0px;
+  padding: 0;
+  display: block;
 }
 
-.menu li:first-child {
-  margin-left: 0;
+.menu a:first-child {
+  margin-left: 0%;
 }
 
 .menu a {
-  display: block;
+  float: right;
+  padding: 20px;
+  font-size: 18px;
+  background: #f5f5f5;
+  text-align: center;
+  cursor: pointer;
   text-decoration: none;
   color: #111;
+  border: solid;
+  border-width: 1px;
 }
 
 .menu a:hover {
@@ -104,27 +111,31 @@ img {
 }
 
 .submenu {
-  width: 150%;
-  text-align: center;
-  list-style: none;
+  white-space: nowrap;
+  background: #f5f5f5;
   display: none;
   position: absolute;
-  right: -10px;
+  float: none;
+  list-style: none;
+  margin-top: 62px;
 }
 
 .submenu li {
-  list-style: none;
-  float:none;
-  display:list-item;
-  position: relative;
-  padding: 5px;
+  margin: 0;
+  min-width: 100%;
+}
+
+.submenu a {
+  padding: 20px;
+  min-width: 100%;
 }
 
 .dropdown:hover > .submenu {
-  display: inherit;
+  display: inline-block;
 }
 
 .dropdown > a:after {
+  font-size: 16px;
   content:  ' ▼';
 }
 
@@ -307,23 +318,15 @@ img {
 
 @media (min-width: 600px) {
   .header {
-    padding: 25px 0;
+    padding: 0px 0;
   }
 
   .nav-logo {
-    margin-top: -13px;
+    margin-top: 0px;
   }
 
   .nav-logo img {
     max-height: 50px;
-  }
-
-  .menu {
-    font-size: 18px;
-  }
-
-  .menu li {
-    margin: 0 0 0 30px;
   }
 
   .content {
