@@ -38,9 +38,6 @@ menu:
     - name: Contact
       url: /contact/
       weight: 5
-    - name: Funding
-      url: /support/
-      weight: 6
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
@@ -55,14 +52,14 @@ params:
   logo:
     url: logo.png
     alt: Ratnapriya Lab
-    height: 50
-    width: 50
+    height: 100
+    width: 100
   logo2:
     url: bcm_logo.png
     urlex: https://www.bcm.edu/departments/ophthalmology
     alt: BCM Logo
-    height: 50
-    width: 50
+    height: 100
+    width: 100
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
