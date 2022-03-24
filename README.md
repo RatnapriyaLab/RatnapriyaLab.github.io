@@ -1,1 +1,1 @@
-RatnapriyaLab.github.io
+RatnapriyaLab.netlify.app
