@@ -234,6 +234,17 @@ img {
   background: #e5e5e5;
 }
 
+.article-content h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #F8F8FF;
+  margin: 15px 0 45px;
+  padding: 0;
+}
+
 .highlight {
   border-radius: 3px;
   position: relative;
