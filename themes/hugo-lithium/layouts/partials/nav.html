@@ -10,7 +10,12 @@
          alt="{{ .Site.Params.logo2.alt }}">
   </a>
 
-
+  <!-- Hamburger icon -->
+  <input class="side-menu" type="checkbox" id="side-menu"/>
+  <label class="hamb" for="side-menu">
+    <span class="hamb-line"></span>
+  </label>
+  <!-- Menu -->
   <ul class="menu">
     {{- $currentPage := . }}
     {{ range .Site.Menus.main.Reverse }}
