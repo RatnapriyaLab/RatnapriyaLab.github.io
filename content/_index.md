@@ -3,7 +3,7 @@ title: Ratnapriya Lab
 description: Elucidating the mechanisms underlying the genetic basis of retinal and macular degenerative disease.
 ---
 
-Welcome to the home page of the laboratory of Dr. Rinki Ratnapriya, Ph.D. in the Department of Ophthalmology at the Baylor College of Medicine, located at the Cullen building on the Texas, Medical Center. Identification of the causal genes/variants and understanding their roles in human diseases represent the central theme of our research. We focus on harnessing the power of genomic technologies to identify the molecular components and the structure of the regulatory apparatus underlying retinal and macular degenerative diseases.
+Large-scale genomic studies have demonstrated the massive scale of genetic variations among individuals, which have revealed important insights into genetic diversity and disease susceptibility. We focus on retinal and macular degenerative disease that affects million of people around leading to varying degrees of vision loss. Retinal diseases primarily affects the retina, a thin layer, primarily made of neurons in the back of the eye. We are interested in harnessing the power of genomic technologies to identify the molecular components and the regulatory apparatus that can link the disease variant to the phenotype.
 
 
 
