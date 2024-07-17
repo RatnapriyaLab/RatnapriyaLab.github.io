@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #F8F8FF;
+  color: #FEF9E7;
   margin: 0;
   padding: 0;
 }
@@ -179,13 +179,13 @@ img {
   max-width: 1500px;
   margin: 150px auto 10px;
   line-height: 1.7;
-  color: #F8F8FF;
+  color: #FEF9E7;
 }
 
 .article-title {
   text-align: center;
   font-size: 32px;
-  color: #F8F8FF;
+  color: #FEF9E7;
   margin: 0;
   line-height: 1.3;
 }
@@ -213,7 +213,7 @@ img {
 }
 
 .article-date {
-  color: #F8F8FF;
+  color: #FEF9E7;
 }
 
 .article-duration {
@@ -224,7 +224,7 @@ img {
   font-weight: bold;
   border-radius: 3px;
   background: #bbb;
-  color: #F8F8FF
+  color: #FEF9E7
 }
 
 .article-content {
@@ -270,7 +270,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #F8F8FF;
+  color: #FEF9E7;
   margin: 15px 0 20px;
   padding: 0;
 }
@@ -292,7 +292,7 @@ h6 {
   list-style: none;
   line-height: 1.3em;
   text-align: center;
-  color: #F8F8FF;
+  color: #FEF9E7;
 }
 
 .archive-title {
@@ -319,7 +319,7 @@ h6 {
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
-  color: #F8F8FF;
+  color: #FEF9E7;
   padding: 0;
   border-bottom: 1px solid #ddd;
 }
@@ -467,13 +467,13 @@ h6 {
     margin: 100px auto 10px;
     padding: 70px;
     line-height: 1.7;
-    color: #F8F8FF;
+    color: #FEF9E7;
   }
 
   .article-title {
     text-align: center;
     font-size: 56px;
-    color: #F8F8FF;
+    color: #FEF9E7;
     margin: 0;
     line-height: 1.3;
   }
@@ -501,7 +501,7 @@ h6 {
   }
 
   .article-date {
-    color: #F8F8FF;
+    color: #FEF9E7;
   }
   
   .article-duration {
@@ -512,7 +512,7 @@ h6 {
     font-weight: bold;
     border-radius: 3px;
     background: #bbb;
-    color: #F8F8FF
+    color: #FEF9E7
   }
   
   .article-content {
@@ -558,7 +558,7 @@ h6 {
   h4,
   h5,
   h6 {
-    color: #F8F8FF;
+    color: #FEF9E7;
     margin: 15px 0 45px;
     padding: 0;
   }
@@ -576,7 +576,7 @@ h6 {
     list-style: none;
     line-height: 1.3em;
     text-align: left;
-    color: #F8F8FF;
+    color: #FEF9E7;
   }
   
   .archive-title {
@@ -604,7 +604,7 @@ h6 {
     text-decoration: none;
     font-size: 24px;
     font-weight: bold;
-    color: #F8F8FF;
+    color: #FEF9E7;
     padding: 5px 0;
     border-bottom: 1px solid #ddd;
     text-overflow: ellipsis;
