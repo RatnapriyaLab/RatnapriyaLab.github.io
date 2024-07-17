@@ -1,5 +1,5 @@
 ---
-title: Ratnapriya Lab
+title: Rinki Ratnapriya Lab
 description: Elucidating the mechanisms underlying the genetic basis of retinal and macular degenerative disease.
 ---
 
